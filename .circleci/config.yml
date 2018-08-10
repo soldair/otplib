@@ -68,7 +68,7 @@ aliases:
   - &defaults
     working_directory: ~/yeojz/otplib
     docker:
-      - image: circleci/node:8@sha256:b7c2364c7937a3341ed9ece1c91996dc349ad354ab1f797170854d82a5ccde93
+      - image: circleci/node:8@sha256:d1e450be0950d7a43ad9a911d51a5ce42e4fb1cbfea2073c9c04ff19032c1e94
 
   - &npm_publish
     steps:
